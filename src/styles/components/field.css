@@ -43,7 +43,7 @@
                 var(--fieldInputPaddingX) * 2 + var(--fieldSearchInputIconSize)
             );
             background-image: url('../../icons/icon-search_black.svg');
-            background-position: calc(100% var(--fieldInputPaddingX)) 50%;
+            background-position: calc(100% - var(--fieldInputPaddingX)) 50%;
             background-size: var(--fieldSearchInputIconSize);
             background-repeat: no-repeat;
         }
