@@ -201,7 +201,7 @@ class Todo {
         }
     }
 
-    onClick = ({ trget }) => {
+    onClick = ({ target }) => {
         if (target.matches(this.selectors.itemDeleteButton)) {
             const itemElement = target.closest(this.selectors.item)
             const itemCheckboxElement = itemElement.querySelector(this.selectors.itemCheckbox)
