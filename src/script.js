@@ -11,7 +11,7 @@ class Todo {
         item: '[data-js-todo-item]',
         itemCheckbox: '[data-js-todo-item-checkbox]',
         itemLabel: '[data-js-todo-item-label]',
-        itemDeleteButton: '[data-js-todo-delete-button]',
+        itemDeleteButton: '[data-js-todo-item-delete-button]',
         emptyMessage: '[data-js-todo-empty-message]',
     }
     
