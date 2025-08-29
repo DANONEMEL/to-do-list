@@ -29,7 +29,8 @@
 
     &:hover,
     &:focus {
-        color: var(--color-darck-2);
+        color: var(--color-dark-2);
+        border-color: var(--color-dark-2);
     }
 
     &:focus {
